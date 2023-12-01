@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;500;600;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;500;600;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-black: #000000;
+  --color-dark: #0f172a;
+  --color-light: #0f172a;
+  --color-button: #43a5ae;
+  --color-white: #fdfdfd;
+  --color-background: #68baaf
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+  
+}
+
+.logo{
+  background:lightgray 50% / no-repeat;
+  mix-blend-mode: multiply;
+  width: 122px;
+}
+
+.custom__button {
+  background-color: var(--color-button);
+  color: var(--color-white);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+/* */
